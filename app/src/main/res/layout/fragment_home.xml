@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/rx"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+        <Button
+            android:id="@+id/button_form_rx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_form_rx" />
+
+        <Button
+            android:id="@+id/button_auto_rx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_auto_rx" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/flow"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+
+        <Button
+            android:id="@+id/button_form_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_form_flow" />
+
+        <Button
+            android:id="@+id/button_auto_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/input_auto_flow" />
+
+    </LinearLayout>
+</ScrollView>

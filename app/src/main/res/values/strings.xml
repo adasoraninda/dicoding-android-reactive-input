@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dicoding Android Reactive Input</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="input_form_rx">Input Form Rx</string>
+    <string name="input_auto_rx">Input Auto Rx</string>
+    <string name="input_form_flow">Input Form Flow</string>
+    <string name="input_auto_flow">Input Auto Flow</string>
+    <string name="hint_place">Lokasi anda…</string>
+    <string name="rx">Rx</string>
+    <string name="flow">Flow</string>
+</resources>
